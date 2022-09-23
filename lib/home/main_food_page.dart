@@ -27,14 +27,14 @@ class _MainFoodPageState extends State<MainFoodPage> {
                   BigText(
                     text: 'Bangladesh',
                     color: AppColors.mainColor,
-                    size: 30,
+                    size: 20,
                   ),
                   Row(children: [
                     SmallText(
                       text: 'Tashkent',
                       color: Colors.black54,
                     ),
-                    const Icon(Icons.arrow_drop_down)
+                    const Icon(Icons.arrow_drop_down_rounded)
                   ]),
                 ]),
                 Center(
