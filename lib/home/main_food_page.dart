@@ -1,8 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:fooddelivery/core/constants/color_const.dart';
-import 'package:fooddelivery/core/constants/fonts_const.dart';
-import 'package:fooddelivery/core/extensions/context.dart';
 import 'package:fooddelivery/core/extensions/dimensions.dart';
 import 'package:fooddelivery/core/widgets/big_text.dart';
 import 'package:fooddelivery/core/widgets/small_text.dart';
@@ -25,7 +22,6 @@ class _MainFoodPageState extends State<MainFoodPage> {
       body: Column(
         children: [
           //* header (appBar)
-
           Container(
             padding: EdgeInsets.only(
               left: Dimensions.width20,
@@ -73,8 +69,10 @@ class _MainFoodPageState extends State<MainFoodPage> {
           ),
 
           //* body
-
-          const FoodPageBody(),
+          const Expanded(
+              child: SingleChildScrollView(
+            child: FoodPageBody(),
+          )),
         ],
       ),
     );
