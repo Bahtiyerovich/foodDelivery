@@ -15,4 +15,38 @@ class AppColors {
   // static final Color textColor = const Color(0XFFccc7c5);
 
 
+
+  // static Color colorE3553F_15 = const Color(0xffE3553F).withOpacity(0.15);
+
+  // static Color color(String type) {
+  //   if (type == "Paprika") {
+  //     return MainColors.colorE3553F_15;
+  //   } else if (type == "Broccoli") {
+  //     return MainColors.color76B226_15;
+  //   } else if (type == "Lettuce") {
+  //     return MainColors.color3F7D3C_15;
+  //   } else if (type == "Potato") {
+  //     return MainColors.colorE9B04F_15;
+  //   } else if (type == "Carrot") {
+  //     return MainColors.colorEA812F_15;
+  //   } else if (type == "Red Onion") {
+  //     return MainColors.color97031D_15;
+  //   } else if (type == "Banan") {
+  //     return MainColors.colorF3A20C_15;
+  //   } else if (type == "Apple") {
+  //     return MainColors.colorDB2137_15;
+  //   } else if (type == "Kiwi") {
+  //     return MainColors.colorB1DB21_15;
+  //   } else if (type == "Pineapple") {
+  //     return MainColors.color76B226_15;
+  //   } else if (type == "Meat") {
+  //     return MainColors.colorFE706E_25;
+  //   } else if (type == "Chicken Meat") {
+  //     return MainColors.colorF27597_15;
+  //   } else if (type == "Fish Meat") {
+  //     return MainColors.color857373_15;
+  //   } else {
+  //     return MainColors.colorWhitee;
+  //   }
+  // }
 }
