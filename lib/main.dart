@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:fooddelivery/home/main_food_page.dart';
+import 'package:fooddelivery/screens/food/popular_food_details.dart';
+import 'package:fooddelivery/screens/home/main_food_page.dart';
 import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-//!  2:50:10
+//!  4:24:15
 //! Documentation uqib chiqish kerak full
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MainFoodPage(),
+      home: const PopularFoodDetail(),
+      // home: MainFoodPage(),
       //  onGenerateRoute: OrgRoutes.instanse.onGenerate,
       // initialRoute: '/profile',
     );

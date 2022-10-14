@@ -3,7 +3,7 @@ import 'package:fooddelivery/core/constants/color_const.dart';
 import 'package:fooddelivery/core/extensions/dimensions.dart';
 import 'package:fooddelivery/core/widgets/big_text.dart';
 import 'package:fooddelivery/core/widgets/small_text.dart';
-import 'package:fooddelivery/home/food_page_body.dart';
+import 'package:fooddelivery/screens/home/food_page_body.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key? key}) : super(key: key);
